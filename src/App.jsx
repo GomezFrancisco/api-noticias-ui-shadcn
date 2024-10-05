@@ -10,7 +10,7 @@ function App() {
   // definir la categoria y noticias
    const [categoria, guardarCategoria] = useState('')
 
-   const API_KEY = '0911245c208546678c463c6f1271d4aa'
+   const API_KEY = 'Su API KEY'
 
    useEffect(() => {
     const consultarAPI = async () => {
